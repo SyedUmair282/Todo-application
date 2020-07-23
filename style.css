@@ -1,0 +1,65 @@
+#del:hover {
+    background-color: black;
+    color: ivory;
+    border-color: black;
+    cursor: pointer;
+}
+
+#edit:hover {
+    background-color: black;
+    color: ivory;
+    border-color: black;
+    cursor: pointer;
+}
+
+#todo:hover {
+    background-color: black;
+    color: ivory;
+    border-color: black;
+    cursor: pointer;
+}
+
+#todo {
+    border-radius: 6px;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#del {
+    border-radius: 6px;
+    border-style: solid;
+}
+
+#edit {
+    border-radius: 6px;
+    border-style: solid;
+}
+
+.delbtn:hover {
+    background-color: black;
+    color: ivory;
+    border-color: black;
+    cursor: pointer;
+}
+
+.delbtn {
+    border-radius: 6px;
+    border-style: solid;
+}
+
+.editbtn:hover {
+    background-color: black;
+    color: ivory;
+    border-color: black;
+    cursor: pointer;
+}
+
+.editbtn {
+    border-radius: 6px;
+    border-style: solid;
+}
+
+#color {
+    color: ivory;
+    font-size: 20px;
+}

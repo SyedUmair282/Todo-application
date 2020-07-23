@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body style="background-color: gray;">
+    <div id="main" style="border: 4px dashed black; margin: 0 auto; width: 300px;">
+        <h2 style="text-align: center;"><ins>TODO LIST APP</ins></h2>
+        <div style="text-align: center;">
+            <input type="text" id="todo" placeholder="Enter todo items" maxlength="32">
+            <button onclick="add()" id="del"><i class='fas fa-plus' style='font-size:14px'></i></button>
+            <button onclick="deleteall()" id="edit"><i class="fa fa-trash" style="font-size:14px"></i></button>
+        </div>
+        <br>
+        <br>
+
+        <ul id="list" style="margin-top: -10px; list-style-type:decimal;">
+
+        </ul>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
